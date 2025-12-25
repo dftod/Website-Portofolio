@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ridho - Developer Portfolio</title>
+    <title>Ridho - Website Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -455,7 +455,7 @@
     <nav class="navbar-modern">
         <div class="container mx-auto px-6 py-4">
             <div class="flex justify-between items-center">
-                <h1 class="text-2xl font-bold cyan-glow">DEV</h1>
+                <h1 class="text-2xl font-bold cyan-glow">Portofolio</h1>
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="#home" class="nav-item transition-colors hover:text-cyan-400">Home</a>
                     <a href="#projects" class="nav-item transition-colors hover:text-cyan-400">Projects</a>
@@ -482,24 +482,16 @@
                         Halo Semuanya, perkenalkan saya <span class="cyan-glow">Muhammad Ridho Halim Habibi</span>
                     </h1>
                     <p class="hero-subtitle">Full Stack Developer</p>
-                    <p class="text-gray-400 mb-8 leading-relaxed">
-                        Saya membangun web experiences yang indah dan fungsional. Passionate tentang clean code dan user-centric design.
-                    </p>
                     <div class="flex flex-col sm:flex-row gap-4">
                         <a href="#projects"><button class="btn-primary">View My Work</button></a>
-                        <button class="btn-secondary">Get In Touch</button>
+                        <a href="#contact"><button class="btn-secondary">Contact Me</button></a>
                     </div>
                 </div>
 
                 <div class="hero-visual relative h-96" data-aos="fade-left" data-aos-duration="1000">
-                    <div class="float-card float-card-1 flex items-center justify-center">
-                        <span class="text-3xl">💻</span>
-                    </div>
-                    <div class="float-card float-card-2 flex items-center justify-center">
-                        <span class="text-2xl">🎨</span>
-                    </div>
-                    <div class="w-full h-full bg-gradient-to-br from-cyan-900 to-blue-900 rounded-2xl border border-cyan-500/20 flex items-center justify-center">
-                        <span class="text-7xl">👨‍💻</span>
+
+                    <div class="w-full h-full bg-gradient-to-br from-cyan-900 to-blue-900 rounded-2xl border border-cyan-500/20 flex items-center justify-center overflow-hidden">
+                        <img src="assets/images/profile.png" alt="Profile Picture" style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                 </div>
             </div>
@@ -513,15 +505,15 @@
         <div class="container mx-auto max-w-6xl">
             <div class="mb-16" data-aos="fade-up">
                 <h2 class="text-4xl md:text-5xl font-bold mb-4">
-                    Featured <span class="cyan-underline">Projects</span>
+                    My <span class="cyan-underline">Projects</span>
                 </h2>
-                <p class="text-gray-400 text-lg">Showcase of my best work</p>
+                <p class="text-gray-400 text-lg">Beberapa project yang pernah saya buat</p>
             </div>
 
             <div class="projects-masonry">
                 <div class="project-card" data-aos="fade-up" data-aos-delay="100">
                     <div class="project-image">
-                        <img src="assets/images/portfolio.jpg" alt="Website Portofolio" style="width: 100%; height: 100%; object-fit: cover;">
+                        <img src="assets/images/web-porto.png" alt="Website Portofolio" style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2 text-cyan-400">Website Portofolio</h3>
@@ -536,7 +528,7 @@
 
                 <div class="project-card" data-aos="fade-up" data-aos-delay="200">
                     <div class="project-image">
-                        <img src="assets/images/mts-khadijah.jpg" alt="Website MTs Khadijah" style="width: 100%; height: 100%; object-fit: cover;">
+                        <img src="assets/images/mts.png" alt="Website MTs Khadijah" style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2 text-cyan-400">Website MTs Khadijah</h3>
@@ -550,7 +542,7 @@
 
                 <div class="project-card" data-aos="fade-up" data-aos-delay="300">
                     <div class="project-image">
-                        <img src="assets/images/madskul.jpg" alt="Madskul Mobile App" style="width: 100%; height: 100%; object-fit: cover;">
+                        <img src="assets/images/madskul.png" alt="Madskul Mobile App" style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2 text-cyan-400">Madskul Mobile App</h3>
@@ -564,11 +556,11 @@
 
                 <div class="project-card" data-aos="fade-up" data-aos-delay="100">
                     <div class="project-image">
-                        <img src="assets/images/pixel-plaza.jpg" alt="Pixel Plaza" style="width: 100%; height: 100%; object-fit: cover;">
+                        <img src="assets/images/pixel.png" alt="Pixel Plaza" style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2 text-cyan-400">Pixel Plaza</h3>
-                        <p class="text-gray-400 text-sm mb-4">E-commerce platform dengan fitur lengkap</p>
+                        <p class="text-gray-400 text-sm mb-4">Content Creator tools platform dengan fitur lengkap</p>
                         <div class="flex gap-2">
                             <span class="px-2 py-1 bg-cyan-900/30 rounded text-xs">Laravel</span>
                             <span class="px-2 py-1 bg-cyan-900/30 rounded text-xs">Bootstrap</span>
@@ -580,7 +572,7 @@
 
                 <div class="project-card" data-aos="fade-up" data-aos-delay="200">
                     <div class="project-image">
-                        <img src="assets/images/cresound.jpg" alt="Cresound" style="width: 100%; height: 100%; object-fit: cover;">
+                        <img src="assets/images/cresound.png" alt="Cresound" style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2 text-cyan-400">Cresound</h3>
@@ -604,12 +596,11 @@
                         About <span class="cyan-glow">Me</span>
                     </h2>
                     <p class="text-gray-400 mb-4 leading-relaxed">
-                        Saya adalah developer yang passionate dengan 5+ tahun pengalaman dalam web development. 
-                        Saya fokus pada creating beautiful, functional, dan user-centric digital experiences.
-                    </p>
-                    <p class="text-gray-400 mb-6 leading-relaxed">
-                        Ketika tidak coding, Anda bisa menemukan saya exploring new technologies, contributing ke open-source, 
-                        atau mentoring junior developers.
+                        Halo! Muhammad Ridho Halim Habibi, siswa SMK Negeri 4 Kota Malang, jurusan Rekayasa Perangkat Lunak kelas XI. Saya berasal dari Kota Malang.
+
+Sejak awal masuk SMK, saya tertarik dengan cara kerja website dan aplikasi web. Saya memiliki passion yang besar dalam dunia pemrograman.Saat ini, saya sedang mendalami cara membuat website yang tidak hanya berfungsi dengan baik, tetapi juga memiliki tampilan visual yang elegan, interaktif, dan nyaman digunakan.
+
+Saat ini saya sedang mempersiapkan diri untuk Program Praktik Kerja Lapangan (PKL). Saya sangat antusias untuk mendapatkan pengalaman nyata di dunia industri teknologi dan berkolaborasi dengan profesional di bidang ini.
                     </p>
                 </div>
             </div>
@@ -673,44 +664,35 @@
                 <h2 class="text-4xl md:text-5xl font-bold mb-4">
                     Let's <span class="cyan-glow">Work Together</span>
                 </h2>
-                <p class="text-gray-400 text-lg">Interested in collaborating? Let's chat!</p>
+                <p class="text-gray-400 text-lg">Tertarik untuk mengenal saya lebih lanjut? Jangan ragu untuk hubungi saya!</p>
             </div>
 
             <div class="contact-grid">
                 <div class="contact-card" data-aos="fade-up" data-aos-delay="100">
                     <div class="contact-icon">
-                        <span>💌</span>
+                        <i class="fas fa-envelope" style="font-size: 1.5rem;"></i>
                     </div>
                     <h3 class="text-xl font-bold mb-2">Email</h3>
-                    <p class="text-gray-400 mb-4">your.email@example.com</p>
-                    <a href="mailto:your.email@example.com" class="text-cyan-400 hover:text-cyan-300 font-semibold">Send Email</a>
+                    <p class="text-gray-400 mb-4">halim.habibi0902@gmail.com</p>
+                    <a href="mailto:halim.habibi0902@gmail.com" class="text-cyan-400 hover:text-cyan-300 font-semibold">Send Email</a>
                 </div>
 
                 <div class="contact-card" data-aos="fade-up" data-aos-delay="200">
                     <div class="contact-icon">
-                        <span>�</span>
+                        <i class="fab fa-github" style="font-size: 1.5rem;"></i>
                     </div>
                     <h3 class="text-xl font-bold mb-2">GitHub</h3>
-                    <p class="text-gray-400 mb-4">Check out my repositories</p>
-                    <a href="#" class="text-cyan-400 hover:text-cyan-300 font-semibold">View GitHub</a>
+                    <p class="text-gray-400 mb-4">Cek Repository Saya</p>
+                    <a href="https://github.com/dftod" class="text-cyan-400 hover:text-cyan-300 font-semibold">View GitHub</a>
                 </div>
 
                 <div class="contact-card" data-aos="fade-up" data-aos-delay="300">
                     <div class="contact-icon">
-                        <span>📷</span>
+                        <i class="fab fa-instagram" style="font-size: 1.5rem;"></i>
                     </div>
                     <h3 class="text-xl font-bold mb-2">Instagram</h3>
-                    <p class="text-gray-400 mb-4">Follow me on Instagram</p>
-                    <a href="#" class="text-cyan-400 hover:text-cyan-300 font-semibold">View Profile</a>
-                </div>
-
-                <div class="contact-card" data-aos="fade-up" data-aos-delay="400">
-                    <div class="contact-icon">
-                        <span>📍</span>
-                    </div>
-                    <h3 class="text-xl font-bold mb-2">Location</h3>
-                    <p class="text-gray-400 mb-4">Malang, Indonesia</p>
-                    <a href="#" class="text-cyan-400 hover:text-cyan-300 font-semibold">Get Directions</a>
+                    <p class="text-gray-400 mb-4">@ridho.hlm_</p>
+                    <a href="https://www.instagram.com/ridho.hlm_/" class="text-cyan-400 hover:text-cyan-300 font-semibold">View Profile</a>
                 </div>
             </div>
         </div>
@@ -720,11 +702,9 @@
     <footer class="relative py-12 px-6 border-t border-cyan-900/20 mt-20">
         <div class="container mx-auto max-w-6xl">
             <div class="flex flex-col md:flex-row justify-between items-center">
-                <p class="text-gray-400 text-sm">&copy; 2025 Your Name. All rights reserved.</p>
+                <p class="text-gray-400 text-sm">&copy; 2025 Muhamamd Ridho Halim Habibi. All rights reserved.</p>
                 <div class="flex gap-6 mt-4 md:mt-0">
-                    <a href="#" class="text-gray-400 hover:text-cyan-400 transition">Twitter</a>
-                    <a href="#" class="text-gray-400 hover:text-cyan-400 transition">GitHub</a>
-                    <a href="#" class="text-gray-400 hover:text-cyan-400 transition">LinkedIn</a>
+                    <a href="https://github.com/dftod" class="text-gray-400 hover:text-cyan-400 transition">GitHub</a>
                 </div>
             </div>
         </div>
